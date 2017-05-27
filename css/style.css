@@ -507,17 +507,23 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color: black;
 }
 /*end*/
-#travel-price>.container>.travel-price{
+#travel-price>.container>.travel-price,#travel-price>.container>.travel-space{
 	border: solid 1px black;
 	padding-bottom: 1em;
 	margin:1em 0;
 }
-#travel-price>.container>.travel-price>.msg-title{
+#travel-price>.container>.travel-price>.msg-title,#travel-price>.container>.travel-space>.msg-title{
 	background: rgba(0,0,0,.8);
 	padding: .8em;
 	color: white;
 	font-size: 0.9em;
 	margin-bottom: 1em;
+}
+#travel-price>.container>.travel-space>.space-content{
+	padding: 0  15px 0px 15px;
+}
+#travel-price>.container>.travel-space>.space-content>dl{
+	font-size: .9em;
 }
 #travel-price>.container>.travel-price>.panel-group{
 	margin: 0 .6em;
@@ -526,6 +532,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 	display: block;
 	font-size: 1em;
 	text-decoration: none;
+}
+#travel-price>.container>.travel-price>.panel-group>.panel>.panel-collapse>.panel-body>strong{
+	font-size: 1em;
+}
+#travel-price>.container>.travel-price>.panel-group>.panel>.panel-collapse>.panel-body>p{
+	font-size: .9em;
 }
 span.four {
   background-color: #27DA93;
