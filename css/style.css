@@ -506,14 +506,37 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: .9em;
 	color: black;
 }
+.nav-tabs>.col-xs-4{
+    padding: 0!important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs > li> a{
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #42A9FD;
+    cursor: default;
+    background-color: #fff;
+    /*border: none!important;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:solid 2px #50AEF6 ;
+}
 /*end*/
 #travel-price>.container>.travel-price,#travel-price>.container>.travel-space{
-	border: solid 1px black;
+	border: solid 1px #30A3FC;
 	padding-bottom: 1em;
 	margin:1em 0;
 }
 #travel-price>.container>.travel-price>.msg-title,#travel-price>.container>.travel-space>.msg-title{
-	background: rgba(0,0,0,.8);
+	background: #30A3FC;
 	padding: .8em;
 	color: white;
 	font-size: 0.9em;
