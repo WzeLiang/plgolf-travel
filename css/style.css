@@ -594,6 +594,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 #space-price>.container>.travel-space>.space-content>.day{
 	margin-bottom: 3em;
 }
+#space-price>.container>.travel-space>.space-content>.day:last-child{
+	margin-bottom: 0;
+}
 #space-price>.container>.travel-space>.space-content>.day>h3{
 	margin-bottom: 1.2em;
 	font-size: 1.5em;
@@ -603,7 +606,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 1.2em;
 	margin-bottom: 1em;
 }
-#space-price>.container>.travel-price>.price-content>.price-include,#space-price>.container>.travel-price>.price-content>.price-outclude{
+#space-price>.container>.travel-price>.price-content>.price-include{
 	margin-bottom: 2em;
 }
 /*end 行程&费用*/

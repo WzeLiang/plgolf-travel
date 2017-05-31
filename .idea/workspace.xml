@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9e61d28-47e0-41ce-9912-2bf7f6b69a22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travelnfo.html" afterPath="$PROJECT_DIR$/travelnfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +21,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
@@ -32,15 +31,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="578" column="0" lean-forward="false" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
-              <folding>
-                <marker date="1496224213014" expanded="true" signature="461:501" ph="{...}" />
-                <marker date="1496224213014" expanded="true" signature="23671:23718" ph="{...}" />
-              </folding>
+            <state relative-caret-position="484">
+              <caret line="608" column="67" lean-forward="false" selection-start-line="608" selection-start-column="67" selection-end-line="608" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,9 +77,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/travelnfo.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -249,7 +245,7 @@
       <workItem from="1495778374912" duration="5950000" />
       <workItem from="1495849788869" duration="7097000" />
       <workItem from="1496195334600" duration="7013000" />
-      <workItem from="1496209866133" duration="14425000" />
+      <workItem from="1496209866133" duration="14681000" />
     </task>
     <task id="LOCAL-00001" summary="2222">
       <created>1496195577234</created>
@@ -272,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496226269029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5555">
+      <created>1496227259830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496227259830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34485000" />
+    <option name="totallyTimeSpent" value="34741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -311,7 +314,8 @@
     <MESSAGE value="2222" />
     <MESSAGE value="333" />
     <MESSAGE value="444" />
-    <option name="LAST_COMMIT_MESSAGE" value="444" />
+    <MESSAGE value="5555" />
+    <option name="LAST_COMMIT_MESSAGE" value="5555" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -330,10 +334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12974">
           <caret line="499" column="0" lean-forward="true" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-          <folding>
-            <marker date="1496224213014" expanded="true" signature="461:501" ph="{...}" />
-            <marker date="1496224213014" expanded="true" signature="23671:23718" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -360,10 +361,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13286">
           <caret line="511" column="24" lean-forward="false" selection-start-line="511" selection-start-column="24" selection-end-line="511" selection-end-column="24" />
-          <folding>
-            <marker date="1496224213014" expanded="true" signature="461:501" ph="{...}" />
-            <marker date="1496224213014" expanded="true" signature="23671:23718" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -405,17 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="578" column="0" lean-forward="false" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
-          <folding>
-            <marker date="1496224213014" expanded="true" signature="461:501" ph="{...}" />
-            <marker date="1496224213014" expanded="true" signature="23671:23718" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travelnfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -431,6 +418,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="608" column="67" lean-forward="false" selection-start-line="608" selection-start-column="67" selection-end-line="608" selection-end-column="67" />
           <folding />
         </state>
       </provider>
