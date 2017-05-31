@@ -18,10 +18,10 @@ body a{
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
- ul{
-	padding: 0;
-	margin: 0;
-}
+ /*ul{*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+/*}*/
 h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;	
 }
@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   	width: 14.285%;
 }
 .banner-bottom-top {
-  	background-color: #F7F7F7;
+
   	min-height: 96px;
 }
 .bottom-head:nth-child(7) {
@@ -485,7 +485,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 
-	/*这是主页图文详情样式*/
+/*这是主页图文详情样式*/
 .index-imgtext {
 	background:rgba(0,0,0,.8);
 	padding: 1em;
@@ -499,8 +499,17 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*end*/
 
 /*详情页图文*/
-.info-imgtext{
-	padding: 1em;
+.banner-bottom-top{
+	padding: 1em 1em 0 1em;
+}
+.banner-bottom-top>.bottom-header>h4{
+	font-size: 1.2em;
+}
+.banner-bottom-top>.bottom-header>.header-price{
+	margin-top: 1em;
+}
+.tab-content{
+	padding-bottom: 2em;
 }
 .info-imgtext p{
 	font-size: .9em;
@@ -514,54 +523,125 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .nav-tabs > li> a{
     color: black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #42A9FD;
+    color: #3EA5FB;
     cursor: default;
     background-color: #fff;
     /*border: none!important;*/
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
     border-bottom:solid 2px #50AEF6 ;
 }
-/*end*/
-#travel-price>.container>.travel-price,#travel-price>.container>.travel-space{
+/*图文详情*/
+.gooditem>.info-imgtext>p{
+	font-size: .9em;
+}
+.gooditem>.info-imgtext>.text-blue{
+	color: #3EA5FB;
+	font-size: 1.1em;
+	margin-top: 1em;
+	margin-bottom: .15em;
+}
+.gooditem>.info-imgtext>.text-blue>.peo-numb{
+	color: black;
+}
+
+.gooditem>.info-imgtext>.border-bottom{
+	border-bottom: 1px solid #DDDDDD;
+	margin-right: 2em;
+	padding-bottom: .3em;
+}
+.gooditem>.info-imgtext>.text-english{
+	margin-bottom: 1.5em;
+	font-size: 1em;
+}
+/*end 图文详情*/
+
+/*行程&费用*/
+/*#space-price>.travel-space>.space-content>.day>p,#space-price>.travel-price>.price-content>.price-include>ul>li,#space-price>.travel-price>.price-content>.price-outclude>ul>li,#space-price>.container>p{*/
+	/*font-size: .9em;*/
+/*}*/
+#space-price p,#space-price ul li{
+	font-size: .9em;
+}
+/*#space-price ul li{*/
+	/*list-style: disc;*/
+/*}*/
+#space-price>.container{
+	padding-bottom: 2em;
+}
+#space-price>.container>.travel-price,#space-price>.container>.travel-space{
 	border: solid 1px #30A3FC;
 	padding-bottom: 1em;
 	margin:1em 0;
 }
-#travel-price>.container>.travel-price>.msg-title,#travel-price>.container>.travel-space>.msg-title{
+#space-price>.container>.travel-price>.msg-title,#space-price>.container>.travel-space>.msg-title{
 	background: #30A3FC;
 	padding: .8em;
 	color: white;
 	font-size: 0.9em;
 	margin-bottom: 1em;
 }
-#travel-price>.container>.travel-space>.space-content{
-	padding: 0  15px 0px 15px;
+#space-price>.container>.travel-space>.space-content,#space-price>.container>.travel-price>.price-content{
+	padding: 1em;
 }
-#travel-price>.container>.travel-space>.space-content>dl{
+#space-price>.container>.travel-space>.space-content>.day{
+	margin-bottom: 3em;
+}
+#space-price>.container>.travel-space>.space-content>.day>h3{
+	margin-bottom: 1.2em;
+	font-size: 1.5em;
+}
+#space-price>.container>.travel-space>.space-content>.day>.space-date,#space-price>.container>.travel-price>.price-content .price-title{
+	color: #FF9C13;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+#space-price>.container>.travel-price>.price-content>.price-include,#space-price>.container>.travel-price>.price-content>.price-outclude{
+	margin-bottom: 2em;
+}
+/*end 行程&费用*/
+/*怎么去*/
+#howgo p{
 	font-size: .9em;
 }
-#travel-price>.container>.travel-price>.panel-group{
-	margin: 0 .6em;
+#howgo>.container{
+	padding-bottom: 2em;
+	padding-top: 1em;
 }
-#travel-price>.container>.travel-price>.panel-group>.panel>.panel-heading>.panel-title>a{
-	display: block;
+#howgo>.container>.text-blue{
+	color: #3EA5FB;
+	font-size: 1.1em;
+	margin-top: 1em;
+	margin-bottom: .15em;
+}
+#howgo>.container>.border-bottom{
+	border-bottom: 1px solid #DDDDDD;
+	margin-right: 2em;
+	padding-bottom: .3em;
+}
+#howgo>.container>.remark{
+	margin-top: 2em;
+}
+#howgo>.container>.remark>.remake-title{
 	font-size: 1em;
-	text-decoration: none;
+	font-weight: bold;
 }
-#travel-price>.container>.travel-price>.panel-group>.panel>.panel-collapse>.panel-body>strong{
-	font-size: 1em;
-}
-#travel-price>.container>.travel-price>.panel-group>.panel>.panel-collapse>.panel-body>p{
-	font-size: .9em;
-}
+/*end 怎么去 */
+/*end*/
+
+
+
+
+
+
+
 span.four {
   background-color: #27DA93;
   font-size: 1em;
@@ -1175,10 +1255,10 @@ ul.kid-menu{
   	right: 0;
   	  z-index: 99999;
 }
-ul {
-	padding: 0;
-	list-style: none;
-}
+/*ul {*/
+	/*padding: 0;*/
+	/*list-style: none;*/
+/*}*/
 .menu > li > a {
 	width: 100%;
 	line-height: 2.5em;
