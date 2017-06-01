@@ -675,7 +675,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .order-form .container .select-button span{
 	display: inline-block;
 	width: 88%;
-	padding: .8em;
+	padding: .5em 0.8em;
 	color: #888888;
 	border: #888888 1px solid;
 	font-size: 1em;
