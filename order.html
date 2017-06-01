@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>套餐详情</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--menu-->
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <!--//menu-->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Real Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+
+</head>
+<style>
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .tabs{
+        font-size: .8em;
+    }
+    .nav>li>a{
+        padding: 10px 0px;
+    }
+</style>
+<body>
+
+
+<div class="header">
+    <div class="container">
+        <h3>太平洋联盟旅行</h3>
+    </div>
+
+</div>
+<!--//-->
+<form action="#" class="form-horizontal order-form" style="padding-bottom: 5em">
+    <input type="text" class="order-msg" placeholder="请填写您的订单信息">
+   <div class="container">
+       <p class="h4">选择身份类型</p>
+       <div class="row select-button" id="select-button">
+           <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+               <span class="active-span" id="sider-btn">我是会员</span>
+           </div>
+           <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+               <span id="guest-btn">我是嘉宾</span>
+           </div>
+       </div>
+   </div>
+    <div class="container">
+           <p class="h4">选择出发时间</p>
+           <div class="row select-date">
+               <div class="pull-left text-center">
+                   <input type="number" placeholder="请选择月份">   月
+               </div>
+               <div class="pull-right text-center">
+                   <input type="number"  placeholder="请选择日期">   日
+               </div>
+
+           </div>
+       </div>
+
+    <div class="input-msg">
+        <div class="form-group">
+            <label for="" class="pull-left ">姓名</label>
+            <div class="pull-left">
+                <input type="text" class="username" id="" maxlength="4" placeholder="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="pull-left">手机号</label>
+            <div class="pull-left">
+                <input type="number" class="userphone" maxlength="11" id="" placeholder="">
+            </div>
+        </div>
+        <div class="form-group sider-input" id="sider-input">
+            <label for="" class="pull-left ">会员卡号</label>
+            <div class="pull-left">
+                <input type="number" class="sidernumb" id="" placeholder="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="pull-left">备注</label>
+            <div class="pull-left">
+                <textarea name="" class="remake" id="" cols="25" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+</form>
+<!--//-->
+
+<!--//header-bottom-->
+<!--//header-->
+<!--tab-->
+<!--<div class="row text-center">-->
+<!--<div class="col-xs-4 tab1">图文详情</div>-->
+<!--<div class="col-xs-4 tab2">行程&费用</div>-->
+<!--<div class="col-xs-4 tab3">怎么去</div>-->
+<!--</div>-->
+
+
+
+<!--content-->
+
+<!--end--tab-->
+<div class="baa text-center" style="background:#30A3FC;color: white;padding: 1em;position: fixed;bottom: 0;width: 100%;">
+    支付
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $("#select-button").find("span").click(function () {
+               $("#select-button").find("span").removeClass("active-span");
+               $(this).addClass("active-span");
+        });
+        $("#sider-btn").click(function () {
+            $("#sider-input").slideDown()
+        })
+        $("#guest-btn").click(function () {
+            $("#sider-input").slideUp()
+        })
+    })
+</script>
+</body>
+</html>

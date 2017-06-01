@@ -25,6 +25,14 @@ body a{
 h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;	
 }
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.form-horizontal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
 /*----*/
 .logo {
   float: left;
@@ -637,6 +645,81 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-weight: bold;
 }
 /*end 怎么去 */
+/*order*/
+.order-form>.order-msg{
+	width: 100%;
+	font-size: 1.1em;
+	padding: 1em;
+	border: none;
+}
+.order-form>.order-msg:focus{
+	outline: none;
+}
+.order-form .container .h4{
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+.order-form>.container{
+	padding: .8em;
+	border-top: 1px #DDDDDD solid;
+	border-bottom: 1px #DDDDDD solid;
+	margin-bottom: .5em;
+}
+/*.order-form .container .select-button>.text-center{*/
+	/*padding: 0;*/
+/*}*/
+.order-form .container .select-button span{
+	display: inline-block;
+	width: 88%;
+	padding: .8em;
+	color: #888888;
+	border: #888888 1px solid;
+	font-size: 1em;
+}
+.order-form .container .select-button  .active-span{
+	color: #30A3FC;
+	border: 1px #30A3FC solid;
+}
+.order-form .container .select-date input{
+	width: 71%;
+	height: 2em;
+}
+.order-form .container .select-date .pull-left,.order-form .container .select-date .pull-right{
+	width: 50%;
+}
+.order-form .input-msg .form-group{
+	border-bottom: 1px #DDDDDD solid;
+	padding: .8em .8em;
+}
+.order-form .input-msg .form-group input,.order-form .input-msg .form-group textarea{
+	border: none;
+	height: 100%;
+	padding-top: 0;
+	padding-left: 1em;
+	font-size: 1.1em;
+}
+.order-form .input-msg .form-group{
+	margin-bottom: 0;
+}
+.order-form .input-msg .form-group textarea{
+	padding-top: .3em;
+
+}
+.order-form .input-msg .form-group input:focus,.order-form .input-msg .form-group textarea:focus{
+	outline:none
+}
+.order-form .input-msg .form-group .username,.order-form .input-msg .form-group .userphone,.order-form .input-msg .form-group .sidernumb{
+	width: 13em;
+	height: 2em;
+}
+.order-form .input-msg .form-group label{
+	font-weight: normal;
+	font-size: 1em;
+	padding-top: .3em;
+}
+
+/* end--order*/
 /*end*/
 
 
