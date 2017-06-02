@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//-->
 <form action="#" class="form-horizontal order-form" style="padding-bottom: 5em">
     <input type="text" class="order-msg" placeholder="请填写您的订单信息">
-   <div class="container">
+   <div class="order-box">
        <p class="h4">选择身份类型</p>
        <div class="row select-button" id="select-button">
            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
@@ -61,14 +61,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
            </div>
        </div>
    </div>
-    <div class="container">
+    <div class="order-box">
            <p class="h4">选择出发时间</p>
            <div class="row select-date">
+               <select id="sel_year" rel="2017" class="hidden" ></select>
                <div class="pull-left text-center">
-                   <input type="number" placeholder="请选择月份">   月
+                   <select id="sel_month" class="text-center"></select>  月
                </div>
                <div class="pull-right text-center">
-                   <input type="number"  placeholder="请选择日期">   日
+                   <select id="sel_day" class="text-center"></select>  日
                </div>
 
            </div>
@@ -111,7 +112,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--<div class="col-xs-4 tab2">行程&费用</div>-->
 <!--<div class="col-xs-4 tab3">怎么去</div>-->
 <!--</div>-->
-
+<select id="sel_year" rel="2017" ></select>年
+<select id="sel_month"></select>月
+<select id="sel_day"></select>日
 
 
 <!--content-->
@@ -123,6 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/date.js"></script>
 <script>
     $(function () {
         $("#select-button").find("span").click(function () {
@@ -134,7 +138,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         })
         $("#guest-btn").click(function () {
             $("#sider-input").slideUp()
-        })
+        });
+
+        $(function () {
+            $.ms_DatePicker({
+                YearSelector: ".sel_year",
+                MonthSelector: ".sel_month",
+                DaySelector: ".sel_day"
+            });
+            $.ms_DatePicker();
+        });
+
     })
 </script>
 </body>

@@ -655,15 +655,15 @@ ul.callbacks_tabs.callbacks1_tabs {
 .order-form>.order-msg:focus{
 	outline: none;
 }
-.order-form .container .h4{
+.order-form .order-box .h4{
 	font-size: 1.1em;
 
 	margin-left: 1em;
 }
-.order-form .container .select-date{
+.order-form .order-box .select-date{
 	margin-top: 1em;
 }
-.order-form>.container{
+.order-form>.order-box{
 	padding: .8em;
 	border-top: 1px #DDDDDD solid;
 	border-bottom: 1px #DDDDDD solid;
@@ -672,7 +672,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*.order-form .container .select-button>.text-center{*/
 	/*padding: 0;*/
 /*}*/
-.order-form .container .select-button span{
+.order-form .order-box .select-button span{
 	display: inline-block;
 	width: 88%;
 	padding: .5em 0.8em;
@@ -680,15 +680,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 	border: #888888 1px solid;
 	font-size: 1em;
 }
-.order-form .container .select-button  .active-span{
+.order-form .order-box .select-button  .active-span{
 	color: #30A3FC;
 	border: 1px #30A3FC solid;
 }
-.order-form .container .select-date input{
-	width: 71%;
+.order-form .order-box .select-date select{
+	width: 63%;
 	height: 2em;
+
 }
-.order-form .container .select-date .pull-left,.order-form .container .select-date .pull-right{
+.order-form .order-box .select-date .pull-left,.order-form .order-box .select-date .pull-right{
 	width: 50%;
 }
 .order-form .input-msg .form-group{
@@ -707,7 +708,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .order-form .input-msg .form-group textarea{
 	padding-top: .3em;
-
 }
 .order-form .input-msg .form-group input:focus,.order-form .input-msg .form-group textarea:focus{
 	outline:none
