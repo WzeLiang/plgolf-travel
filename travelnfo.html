@@ -37,6 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     .nav>li>a{
         padding: 10px 0px;
     }
+
 </style>
 <body>
 
@@ -342,7 +343,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 
 <!--content-->
-
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="glyphicon glyphicon-arrow-up"></i></a>
+</div>
 <!--end--tab-->
 <a href="order.html" class=" text-center" style="background:#30A3FC;color: white;padding: 1em;position: fixed;bottom: 0;width: 100%;">
     立即订购
@@ -350,5 +353,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+
+       var goToTop = function() {
+
+           $('.js-gotop').on('click', function(event){
+
+               event.preventDefault();
+
+               $('html, body').animate({
+                   scrollTop: $('html').offset().top
+               }, 500);
+
+               return false;
+           });
+
+           $(window).scroll(function(){
+
+               var $win = $(window);
+               console.log($win.scrollTop());
+               if ($win.scrollTop() > 50) {
+
+                   $('.js-top').addClass('active');
+               } else {
+                   $('.js-top').removeClass('active');
+               }
+
+           });
+
+       };
+    $(function () {
+        goToTop();
+    })
+</script>
 </body>
 </html>
