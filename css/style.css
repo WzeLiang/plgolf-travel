@@ -479,7 +479,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin: 0 1%;
 }
 .content-grid{
-	/*background: url(../images/back1.jpg);*/
+	background:#EEEEEE;
 	width:100%;
 	min-height: 500px;
 	background-size: cover;
@@ -507,14 +507,51 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*end*/
 
 /*详情页图文*/
+
 .banner-bottom-top{
-	padding: 1em 1em 0 1em;
+	padding: 1em 1em 1em 1em;
 }
-.banner-bottom-top>.bottom-header>h4{
+.banner-bottom-top .container .bottom-header .pull-left .time-title{
 	font-size: 1.2em;
+	color: #31A3FC;
+	margin-bottom: .5em;
 }
-.banner-bottom-top>.bottom-header>.header-price{
-	margin-top: 1em;
+.banner-bottom-top .container .bottom-header .pull-left p span{
+	display: inline-block;
+}
+.banner-bottom-top .container .bottom-header .pull-left p span.time-day,
+.banner-bottom-top .container .bottom-header .pull-left p .time-hour,
+.banner-bottom-top .container .bottom-header .pull-left p .time-min,
+.banner-bottom-top .container .bottom-header .pull-left p .time-sec{
+	background: black;
+	color: white;
+	font-size: 1.2em;
+	padding: .5em .3em;
+	font-weight: bold;
+	border-radius: 11%;
+	text-align: center;
+}
+.banner-bottom-top .container .bottom-header .pull-left p .time-text{
+	font-size: 1em;
+	vertical-align: bottom;
+}
+.banner-bottom-top .container .bottom-header .pull-left p .time-text:nth-child(2),
+.banner-bottom-top .container .bottom-header .pull-left p .time-text:nth-child(4),
+.banner-bottom-top .container .bottom-header .pull-left p .time-text:nth-child(6){
+	margin-right: .5em;
+	margin-left: .2em;
+}
+.banner-bottom-top .container .bottom-header .pull-right{
+	padding-top: 1.8em;
+}
+.banner-bottom-top .container .bottom-header .pull-right .active-share{
+	padding: .8em;
+	background: #31A3FC;
+	font-size: 1.2em;
+	color: white;
+	font-weight: bold;
+	vertical-align: bottom;
+	border-radius: 50%;
 }
 .tab-content{
 	padding-bottom: 2em;

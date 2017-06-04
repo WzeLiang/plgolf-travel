@@ -50,22 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <!--</div>-->
                         </div>
                     </li>
-                    <!--<li>-->
-                    <!--<div class="banner2">-->
-                    <!--<div class="caption">-->
-                    <!--<h3><span>vivam</span>us site</h3>-->
-                    <!--<p>Nunc dignissim risus idi</p>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                    <!--<div class="banner3">-->
-                    <!--<div class="caption">-->
-                    <!--<h3><span>vivam</span>us site</h3>-->
-                    <!--<p>Nunc dignissim risus idi</p>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--</li>		-->
+
                 </ul>
             </div>
         </div>
@@ -75,8 +60,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--header-bottom-->
 <div class="banner-bottom-top">
     <div class="container">
-        <div class="bottom-header">
-
+        <div class="bottom-header row">
+           <div class="pull-left">
+               <p class="time-title">距离活动报名结束还剩：</p>
+               <p class="countdown">
+                   <span class="time-day days"></span>
+                   <span class="time-text">天</span>
+                   <span class="time-hour hours"></span>
+                   <span class="time-text">时</span>
+                   <span class="time-min minutes"></span>
+                   <span class="time-text">分</span>
+                   <span class="time-sec seconds"></span>
+                   <span class="time-text">秒</span>
+               </p>
+           </div>
+            <div class="pull-right">
+                <p class="active-share">
+                    <span class="glyphicon glyphicon-share"></span>
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -129,5 +131,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!--//footer-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.downCount.js"></script>
+<script class="source" type="text/javascript">
+    $('.countdown').downCount({
+        date: '12/24/2033 12:00:00',
+        offset: +10
+    }, function () {
+        alert('倒计时结束!');
+    });
+</script>
 </body>
 </html>
