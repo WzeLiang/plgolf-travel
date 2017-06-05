@@ -756,7 +756,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 .order-form .order-box .h4{
 	font-size: 1.1em;
 
-	margin-left: 1em;
 }
 .order-form .order-box .select-date{
 	margin-top: 1em;
@@ -772,7 +771,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*}*/
 .order-form .order-box .select-button span{
 	display: inline-block;
-	width: 88%;
+	width: 94%;
 	padding: .5em 0.8em;
 	color: #888888;
 	border: #888888 1px solid;
@@ -782,8 +781,13 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color: #30A3FC;
 	border: 1px #30A3FC solid;
 }
+.order-form .order-box .select-button .pull-left,
+.order-form .order-box .select-button .pull-right{
+	width: 50%;
+}
+
 .order-form .order-box .select-date select{
-	width: 63%;
+	width: 83%;
 	height: 2em;
 
 }
@@ -793,6 +797,13 @@ ul.callbacks_tabs.callbacks1_tabs {
 .order-form .input-msg .form-group{
 	border-bottom: 1px #DDDDDD solid;
 	padding: .8em .8em;
+}
+.order-form .input-msg .form-group:first-child{
+	border-top: solid 1px #DDDDDD;
+}
+.order-form .input-msg .form-group:last-child{
+	margin-top: .5em;
+	border-top: 1px solid #DDDDDD;
 }
 .order-form .input-msg .form-group input,.order-form .input-msg .form-group textarea{
 	border: none;
