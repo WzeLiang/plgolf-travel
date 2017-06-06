@@ -682,6 +682,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 #howgo>.container{
 	padding-bottom: 2em;
 	padding-top: 1em;
+	padding-left: 20px;
 }
 #howgo>.container>.text-blue{
 	color: #3EA5FB;
@@ -832,6 +833,38 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 /* end--order*/
+/*订单完成*/
+.icon-text{
+	padding: 5em 1em 2em 1em;
+}
+.icon-text .icon{
+	display: inline-block;
+	font-size: 2.6em;
+	padding: .6em;
+	background:#04E422 ;
+	color: white;
+	border-radius: 50%;
+}
+.icon-text .text-big{
+	font-size: 1.6em;
+	padding: 1em 0;
+
+}
+.icon-text .text-small{
+	font-size: .9em;
+
+
+}
+.button-box .back-index{
+	color: white;
+	background: #087CE9;
+	padding: .7em;
+	margin: 0 1.5em;
+	border-radius: .3em;
+	font-size: 1em;
+}
+/*end-订单完成*/
+
 /*end*/
 
 
