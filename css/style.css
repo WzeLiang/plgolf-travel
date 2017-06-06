@@ -559,7 +559,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-top: 1.5em;
 }
 .banner-bottom-top .container{
-	padding-right: 10px;
+	padding-right: 5px;
 }
 .banner-bottom-top .container .bottom-header .pull-right .active-share{
 	/*padding: .5em;*/
@@ -571,7 +571,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	/*border-radius: 50%;*/
 	background: url("../images/分享按钮.png") no-repeat center;
 	width: 3.5em;
-	height: 3.8em;
+	height: 3.5em;
 	background-size: cover;
 }
 /*end*/
