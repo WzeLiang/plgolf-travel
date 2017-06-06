@@ -434,9 +434,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin: 0.5em 0em 0;
 }
 .banner1{
-	background: url(../images/pc4.jpg) no-repeat;
+	background: url(../images/切图_03.jpg) no-repeat;
 	width:100%;
-	min-height: 550px;
+	min-height: 500px;
 	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -499,11 +499,18 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 
 /*这是主页图文详情样式*/
-.index-imgtext {
-	background:rgba(0,0,0,.8);
-	padding: 1em;
+.content .content-grid .container .mask{
+	position: relative;
+	box-shadow:0 3px 8px rgba(0, 0, 0, .9);
 }
-
+.content .content-grid .container .mask .index-imgtext{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background:rgba(0,0,0,.75);
+	padding: .7em;
+}
 
 .index-imgtext p{
 	font-size:0.9em;
@@ -520,6 +527,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .banner-bottom-top .container .bottom-header .pull-left p span{
 	display: inline-block;
+}
+.banner-bottom-top .container .bottom-header .active-stop{
+	font-size: 1.5em;
+	color: red;
 }
 .banner-bottom-top .container .bottom-header .pull-left p span.time-day,
 .banner-bottom-top .container .bottom-header .pull-left p .time-hour,
@@ -545,16 +556,23 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin-left: .1em;
 }
 .banner-bottom-top .container .bottom-header .pull-right{
-	padding-top: 1em;
+	padding-top: 1.5em;
+}
+.banner-bottom-top .container{
+	padding-right: 10px;
 }
 .banner-bottom-top .container .bottom-header .pull-right .active-share{
-	padding: .5em;
-	background: #31A3FC;
-	font-size: 1.2em;
-	color: white;
-	font-weight: bold;
-	vertical-align: bottom;
-	border-radius: 50%;
+	/*padding: .5em;*/
+	/*background: #31A3FC;*/
+	/*font-size: 1.2em;*/
+	/*color: white;*/
+	/*font-weight: bold;*/
+	/*vertical-align: bottom;*/
+	/*border-radius: 50%;*/
+	background: url("../images/分享按钮.png") no-repeat center;
+	width: 3.5em;
+	height: 3.8em;
+	background-size: cover;
 }
 /*end*/
 
@@ -4131,7 +4149,7 @@ h3.typo1 {
   margin-top: 1px;
 }
 .banner1,.banner2,.banner3 {
-  min-height: 280px;
+  min-height: 200px;
 }
 .caption h3 {
   font-size: 2.4em;
@@ -4165,7 +4183,7 @@ h3.typo1 {
 }
 .content-grid {
   min-height: 456px;
-  padding: 2em 0 3em;
+  padding: 2em 0 2em;
 }
 i.dolor {
   width: 298px;
@@ -4668,7 +4686,7 @@ span.four {
   	padding: 0.5em;
 }
 .content-grid {
-  	min-height: 813px;
+  	/*min-height: 813px;*/
   	padding: 1em 0 1em;
 }
 .service-top p,.ser-top p ,.mid-content p{

@@ -70,9 +70,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                </p>
            </div>
             <div class="pull-right">
-                <p class="active-share">
-                    <span class="glyphicon glyphicon-share"></span>
+                <p class="active-share text-right">
+
                 </p>
+            </div>
+            <div class="hidden active-stop">
+                活动已经结束！
             </div>
         </div>
     </div>
@@ -90,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!--<h3>Most Popular</h3>-->
             <div class="col-md-4 col-sm-4 gooditem">
                 <a href="travelnfo.html" class="mask">
-                    <img class="img-responsive " src="images/pc4.jpg" alt="">
+                    <img class="img-responsive " src="images/切图_03.jpg" alt="">
 
 
                     <div class="most-1 index-imgtext">
@@ -101,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="col-md-4 col-sm-4 gooditem">
                 <a href="#" class="mask">
-                    <img class="img-responsive " src="images/pc5.jpg" alt="">
+                    <img class="img-responsive " src="images/切图_06.jpg" alt="">
 
 
                     <div class="most-1 index-imgtext">
@@ -112,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="col-md-4 col-sm-4 gooditem">
                 <a href="#" class="mask">
-                    <img class="img-responsive " src="images/pc3.jpg" alt="">
+                    <img class="img-responsive " src="images/切图_03.jpg" alt="">
 
 
                     <div class="most-1 index-imgtext">
@@ -130,10 +133,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery.downCount.js"></script>
 <script class="source" type="text/javascript">
     $('.countdown').downCount({
-        date: '12/24/2017 12:00:00',
-        offset: +10
+        date: '06/12/2017 15:08:00',
+        offset: +8,
     }, function () {
-        alert('活动已经结束');
+        $('.bottom-header').find(".pull-left").addClass("hidden");
+        $('.bottom-header').find(".pull-right").addClass("hidden");
+        $('.bottom-header').find(".active-stop").removeClass("hidden");
+
+
     });
 </script>
 </body>
