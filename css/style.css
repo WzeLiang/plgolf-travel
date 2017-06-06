@@ -882,7 +882,18 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 1em;
 }
 /*end-订单完成*/
+a.fix-button{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 1em;
+	background: #30A3FC;
+	color: white;
+	padding: 1em;
+	text-decoration: none;
 
+}
 /*end*/
 
 
