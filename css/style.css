@@ -560,6 +560,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .banner-bottom-top .container{
 	padding-right: 5px;
+	padding-left: 5px;
 }
 .banner-bottom-top .container .bottom-header .pull-right .active-share{
 	/*padding: .5em;*/
