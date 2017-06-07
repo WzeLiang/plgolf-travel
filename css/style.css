@@ -493,8 +493,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .gooditem{
 	margin-bottom: 1em;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 3px;
+	padding-right:3px;
 }
 
 
@@ -532,10 +532,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 1.5em;
 	color: red;
 }
-.banner-bottom-top .container .bottom-header .pull-left p span.time-day,
-.banner-bottom-top .container .bottom-header .pull-left p .time-hour,
-.banner-bottom-top .container .bottom-header .pull-left p .time-min,
-.banner-bottom-top .container .bottom-header .pull-left p .time-sec{
+.banner-bottom-top .container .bottom-header .pull-left p span.time-day/*
+/*.banner-bottom-top .container .bottom-header .pull-left p .time-hour,*/
+/*.banner-bottom-top .container .bottom-header .pull-left p .time-min,*/
+/*.banner-bottom-top .container .bottom-header .pull-left p .time-sec*/{
 	background: black;
 	color: white;
 	font-size: 1em;
@@ -544,6 +544,22 @@ ul.callbacks_tabs.callbacks1_tabs {
 	border-radius: 11%;
 	text-align: center;
 	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 70%,rgba(255,255,255,.6));
+}
+.banner-bottom-top .container .bottom-header .pull-left p .time-hour,
+.banner-bottom-top .container .bottom-header .pull-left p .time-min,
+.banner-bottom-top .container .bottom-header .pull-left p .time-sec{
+	background: black;
+	color: white;
+	font-size: 1em;
+	width: 1.7em;
+	height: 2.4em;
+	line-height: 2.4em;
+	font-weight: bold;
+	border-radius: 11%;
+	text-align: center;
+	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 70%,rgba(255,255,255,.6));
+
+
 }
 .banner-bottom-top .container .bottom-header .pull-left p .time-text{
 	font-size: .8em;
@@ -578,6 +594,18 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*end*/
 
 /*详情页图文*/
+.header-right>.banner{
+	position: relative;
+}
+.header-right>.banner>.active-time{
+	position: absolute;
+	left: 1.5em;
+	bottom: 1em;
+	font-size: .9em;
+	padding: .1em 1em ;
+	color: white;
+	background: #FBA80C;
+}
 .banner-bottom-top-info{
 	padding: 1em 1em 0 1em;
 }
