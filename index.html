@@ -55,8 +55,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--header-bottom-->
 <div class="banner-bottom-top">
     <div class="container">
-        <div class="bottom-header row">
-           <div class="pull-left">
+        <div class="bottom-header">
+           <div class="container msg-time text-center">
                <p class="time-title">距离活动报名结束还剩：</p>
                <p class="countdown">
                    <span class="time-day days"></span>
@@ -69,14 +69,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                    <span class="time-text">秒</span>
                </p>
            </div>
-            <div class="pull-right">
-                <p class="active-share text-right">
 
-                </p>
-            </div>
-            <div class="hidden active-stop">
-                活动已经结束！
-            </div>
         </div>
     </div>
 </div>
@@ -129,16 +122,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!--//footer-->
+<div class="hidden" id="activestop-modal">
+    <div class="modal-msg text-center">
+        <div class="msg-content h4">
+            该活动已经结束！
+        </div>
+
+    </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.downCount.js"></script>
 <script class="source" type="text/javascript">
     $('.countdown').downCount({
-        date: '06/12/2017 15:08:00',
+        date: '06/18/2017 17:19:30',
         offset: +8,
     }, function () {
-        $('.bottom-header').find(".pull-left").addClass("hidden");
-        $('.bottom-header').find(".pull-right").addClass("hidden");
-        $('.bottom-header').find(".active-stop").removeClass("hidden");
+        $("#activestop-modal").removeClass("hidden")
+        $("#activestop-modal").find(".modal-msg").css("top","50%");
 
 
     });
