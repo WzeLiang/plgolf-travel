@@ -5420,3 +5420,26 @@ a.more {
   margin: 0.5em 0 0;
 }
 }
+
+
+/*travelinfo--modal*/
+#choose-status{
+	padding: 45% 5%;
+
+}
+#choose-status .modal-content{
+	padding: 2% 0 4% 0;
+}
+#choose-status .modal-content .modal-header h4{
+	font-size: 1.1em;
+	padding-left: 15px;
+}
+#choose-status .modal-content .modal-body .row a{
+	font-size: 1em;
+	text-decoration: none;
+}
+/*end----travelinfo--modal*/
+
+.order-form .order-box .status-type{
+	font-size: 1em;
+}

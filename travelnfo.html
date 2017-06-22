@@ -345,9 +345,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <a href="#" class="js-gotop"><i class="glyphicon glyphicon-arrow-up"></i></a>
 </div>
 <!--end--tab-->
-<a href="order.html" class=" text-center fix-button" >
+<a href="javascript:void(0)" class=" text-center fix-button"  id="choose-modal" >
     立即订购
 </a>
+
+<div class="modal fade" id="choose-status" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">选择身份类型</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="order.html" class="btn btn-primary btn-block">我是会员</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="#" class="btn btn-warning btn-block">我是嘉宾</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -382,6 +403,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
        };
     $(function () {
         goToTop();
+    })
+</script>
+<script>
+    $(function () {
+        $("#choose-modal").click(function () {
+            $("#choose-status").modal({
+                backdrop: true,
+                keyboard: false,
+            })
+        })
     })
 </script>
 </body>
