@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: 'Montserrat-Regular';
     src:url(../fonts/Montserrat-Regular.ttf) format('truetype');
 }
@@ -850,6 +850,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .order-form .order-box .select-date select{
 	width: 83%;
 	height: 2em;
+	-webkit-appearance: none;
 
 }
 .order-form .order-box .select-date .pull-left,.order-form .order-box .select-date .pull-right{
